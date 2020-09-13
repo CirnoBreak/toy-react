@@ -122,6 +122,9 @@ class Game extends Component {
   }
 }
 
+let game = <Game />
+console.log('game', game.vdom)
+
 // ========================================
 
 render(<Game />, document.getElementById("root"));
